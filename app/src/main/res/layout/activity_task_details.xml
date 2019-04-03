@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TaskDetailsActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:id="@+id/tda_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"/>
+
+    <TextView
+        android:id="@+id/tda_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"/>
+
+</LinearLayout>
